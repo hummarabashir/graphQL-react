@@ -1,8 +1,7 @@
 import React from "react";
 import { BrowserRouter as Routes, Route } from "react-router-dom";
-import Landing from "./Landing";
-import StateInfo from "./StateInfo";
-// import ParksPage from "../ParksPage/ParksPage";
+import Landing from "./component/Landing/Landing";
+import StateInfo from "./component/State/StateInfo";
 
 const App = () => {
   return (
