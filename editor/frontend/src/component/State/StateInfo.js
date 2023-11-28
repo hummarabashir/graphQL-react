@@ -33,7 +33,7 @@ const StateInfo = () => {
   if (error) return <p>Error: {error.message}</p>;
   if (data && data.usaMapData) {
     return (
-      <div className="landing-page-container">
+      <div className="state-page-container">
         <h1>STATE INFORMATION</h1>
         <p>{data.usaMapData.id}</p>
         <p>StateName: {data.usaMapData.name}</p>

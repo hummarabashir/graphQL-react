@@ -22,7 +22,7 @@ import React from "react";
 import USAMap from "react-usa-map";
 import { useNavigate } from "react-router-dom";
 
-import "./index.css";
+import "./Landing.css";
 
 const CApp = () => {
   // const mapHandler = (event) => {

@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo-hooks";
-import Landing from "./Landing";
-import StateInfo from "./StateInfo";
-import "./index.css";
+import Landing from "./component/Landing/Landing";
+import StateInfo from "./component/State/StateInfo";
+// import "./index.css";
 
 const client = new ApolloClient({ uri: "http://localhost:4000" });
 
